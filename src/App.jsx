@@ -1,13 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import './App.css';
 
 function App() {
   return (
     <div>
       <header className="header">
-        <h1>Hi, I'm Your Name</h1>
+        <h1>Hi, I'm Will O'Donnell</h1>
         <p>Welcome to my personal website!</p>
       </header>
 
@@ -19,25 +16,25 @@ function App() {
 
       <section id="about" className="section">
         <h2>About Me</h2>
-        <p>I'm a [Your Profession/Field] passionate about [your specialties].</p>
+        <p>I'm a Computer Science student with a minor in Data Science, passionate about technology and innovation.</p>
       </section>
 
       <section id="projects" className="section">
         <h2>Projects</h2>
         <div className="project-card">
-          <h3>Project Title</h3>
-          <p>Brief description of what you built.</p>
+          <h3>My Awesome Project</h3>
+          <p>Description of the project goes here.</p>
         </div>
       </section>
 
       <section id="contact" className="section">
         <h2>Contact</h2>
         <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
-        <p>GitHub: <a href="https://github.com/USERNAME" target="_blank" rel="noopener noreferrer">github.com/USERNAME</a></p>
+        <p>GitHub: <a href="https://github.com/wodonnell10" target="_blank" rel="noopener noreferrer">github.com/wodonnell10</a></p>
       </section>
 
       <footer className="footer">
-        <p>© 2025 Your Name</p>
+        <p>© 2025 Will O'Donnell</p>
       </footer>
     </div>
   );
